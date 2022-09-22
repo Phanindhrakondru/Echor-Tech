@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.echor-logo {
+    margin-left: 75px;
+}
+
+/* main section styles */
+.hero-wrap {
+    margin: 74px 74px 0;
+}
+
+.we-make {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    width: 241px;
+    background: linear-gradient(90deg, #F83600 0%, #FFD300 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.software-dev {
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 122px;
+    color: #121212;
+}
+
+.hero-btns {
+    display: flex;
+    margin-top: 24px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.our-portfolio {
+    width: 272px;
+    height: 99px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+
+    border-radius: 142px;
+    background: #121212;
+
+}
+
+.our-portfolio:hover {
+    background: linear-gradient(90deg, #F83600 0%, #F9D423 100%);
+    box-shadow: 0px 4px 33px rgba(143, 115, 230, 0.12);
+    border: 1px solid #ffffff;
+}
+
+.video-wrap,
+.welcome {
+    margin-top: 100px;
+}
+
+.echor-video {
+    box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+/* Welcome to echor styles */
+.welcome {
+    background: #F8F5EF;
+}
+
+.welcome-wrap {
+    align-items: center;
+    padding-top: 64px;
+}
+
+.welcome-to {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    color: #121212;
+}
+
+.echor-w-logo {
+    padding-left: 39px;
+    padding-bottom: 25px;
+}
+
+.wel-qo-wrap {
+    align-items: center;
+}
+
+.quotes {
+    mix-blend-mode: difference;
+    padding-right: 33px;
+}
+
+.quotes-para {
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+
+.welcome-p {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 131%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: inline-block;
+
+    color: #121212;
+}
+
+.left-img {
+    padding-left: 74px;
+}
