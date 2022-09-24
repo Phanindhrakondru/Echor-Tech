@@ -1,33 +1,33 @@
-<svg width="557" height="352" viewBox="0 0 557 352" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect y="78.2993" width="556.948" height="195.229" rx="97.6146" fill="url(#pattern0)"/>
-<path d="M197.21 52.5326V1" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M197.21 299.467V351" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M414.243 52.5326V1" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M414.243 299.467V351" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M105.184 52.7054L96.0396 1.99072" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M105.184 299.295L96.0396 350.009" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M322.215 52.7054L313.07 1.99072" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M322.215 299.295L313.07 350.009" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M229.915 52.5324L229.915 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M229.915 299.467L229.915 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M446.946 52.5324L446.946 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M446.946 299.467L446.946 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M137.368 52.1234L132.796 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M137.368 299.876L132.796 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M354.399 52.1234L349.827 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M354.399 299.876L349.827 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M167.481 52.5324L167.481 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M167.481 299.467L167.481 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M384.512 52.5324L384.512 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M384.512 299.467L384.512 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M75.924 52.1234L71.3516 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M75.924 299.876L71.3516 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M292.956 52.1234L288.384 26.7661" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M292.956 299.876L288.384 325.233" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M259.645 52.0703L268.176 27.7573" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M259.645 299.93L268.176 324.243" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M476.676 52.0703L485.207 27.7573" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
-<path d="M476.676 299.93L485.207 324.243" stroke="black" stroke-width="1.98202" stroke-linecap="round"/>
+<svg width="520" height="329" viewBox="0 0 520 329" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect y="73.1714" width="520" height="182.278" rx="91.1388" fill="url(#pattern0)"/>
+<path d="M184.127 49.1139V1" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M184.127 279.667V327.781" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M386.762 49.1139V1" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M386.762 279.667V327.781" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M98.2067 49.275L89.6685 1.9248" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M98.2067 279.506L89.6685 326.856" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M300.839 49.275L292.301 1.9248" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M300.839 279.506L292.301 326.856" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M214.663 49.1136L214.663 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M214.663 279.667L214.663 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M417.296 49.1136L417.296 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M417.296 279.667L417.296 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M128.255 48.7318L123.986 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M128.255 280.049L123.986 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M330.888 48.7318L326.619 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M330.888 280.049L326.619 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M156.37 49.1136L156.37 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M156.37 279.667L156.37 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M359.004 49.1136L359.004 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M359.004 279.667L359.004 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M70.8873 48.7318L66.6182 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M70.8873 280.049L66.6182 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M273.522 48.7318L269.252 25.0566" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M273.522 280.049L269.252 303.724" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M242.42 48.6825L250.385 25.9824" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M242.42 280.099L250.385 302.799" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M445.053 48.6825L453.019 25.9824" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
+<path d="M445.053 280.099L453.019 302.799" stroke="black" stroke-width="1.85053" stroke-linecap="round"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_594_191" transform="translate(0 -0.451777) scale(0.00088968 0.00253807)"/>

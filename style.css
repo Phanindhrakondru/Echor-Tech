@@ -9,118 +9,325 @@ body {
 }
 
 /* main section styles */
-.hero-wrap {
-    margin: 74px 74px 0;
+.main-wrap {
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
 
 .we-make {
-    display: inline-block;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    width: 241px;
+    line-height: 29px;
     background: linear-gradient(90deg, #F83600 0%, #FFD300 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-
 }
 
 .software-dev {
-    margin-bottom: 64px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 100px;
     line-height: 122px;
-    color: #121212;
-}
-
-.hero-btns {
     display: flex;
-    margin-top: 24px;
-    align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    color: #121212;
+    margin-top: 56px;
+    margin-bottom: 46px;
 }
 
-.our-portfolio {
+.portfolio {
+    padding: 25px 46px;
+    gap: 10px;
     width: 272px;
     height: 99px;
-    font-weight: 600;
-    font-size: 24px;
-    color: #FFFFFF;
-
-    border-radius: 142px;
     background: #121212;
-
+    margin-right: 52px;
+    font-weight: 600;
 }
 
-.our-portfolio:hover {
+.portfolio:hover {
     background: linear-gradient(90deg, #F83600 0%, #F9D423 100%);
     box-shadow: 0px 4px 33px rgba(143, 115, 230, 0.12);
     border: 1px solid #ffffff;
 }
 
-.video-wrap,
-.welcome {
-    margin-top: 100px;
-}
-
-.echor-video {
+/* Video section styles */
+.intro {
+    background: url(.jpg), #F8F8F8;
     box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
 }
 
-/* Welcome to echor styles */
-.welcome {
+/* Welcome section styles start */
+.wel-wrap {
     background: #F8F5EF;
-}
-
-.welcome-wrap {
-    align-items: center;
-    padding-top: 64px;
+    margin-top: 79px;
+    margin-bottom: 80px;
 }
 
 .welcome-to {
     font-family: 'Inconsolata';
-    font-style: normal;
     font-weight: 500;
     font-size: 100px;
+    line-height: 126px;
     color: #121212;
 }
 
-.echor-w-logo {
-    padding-left: 39px;
-    padding-bottom: 25px;
+.row12-wrap {
+    padding-bottom: 117px;
 }
 
-.wel-qo-wrap {
+.row1,
+.row2 {
     align-items: center;
+    justify-content: space-between;
+    margin-top: 85px;
 }
 
 .quotes {
     mix-blend-mode: difference;
-    padding-right: 33px;
+    padding-bottom: 150px;
 }
 
-.quotes-para {
-    align-items: baseline;
-    justify-content: flex-end;
-}
-
-
-.welcome-p {
+.we-echor-tech {
+    text-align: right;
     font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 39.5028px;
     line-height: 131%;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    display: inline-block;
+}
 
+/* Categories section styles start */
+
+.turning-text {
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 67px;
+    text-transform: capitalize;
     color: #121212;
 }
 
-.left-img {
-    padding-left: 74px;
+.feature-wrap {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cat-row-wrap {
+    margin-bottom: 30px;
+}
+
+.see-all {
+    width: 335px;
+    height: 92px;
+}
+
+.card-wrap {
+    margin-bottom: 64px;
+}
+
+.category-card {
+    margin-right: 30px;
+}
+
+/* Client section styles */
+.are-you {
+    font-weight: 700;
+    font-size: 56px;
+    align-items: center;
+    text-align: center;
+    color: #B7B7B7;
+}
+
+.clients {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.clients-wrap {
+    margin-top: 110px;
+}
+
+.c-wrap {
+    margin-bottom: 132px;
+}
+
+.clients-title {
+    padding-top: 32px;
+}
+
+.brands {
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+.brands-wrap {
+    margin-top: 4rem;
+}
+
+/* About us styles */
+.about-wrap {
+    background-image: url(assets/images/about-us-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.abt-container {
+    padding: 214px;
+}
+
+.ab-wrap {
+    background-color: #121212;
+    color: #ffffff;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 12%);
+    border-radius: 12px;
+}
+
+.about-us {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.abt-us {
+    padding: 50px;
+}
+
+.ab-imgs {
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.abt-symbol {
+    position: absolute;
+    left: 1060px;
+    mix-blend-mode: luminosity;
+}
+
+.our-vision-at {
+    margin-bottom: 30px;
+}
+
+.get-in-touch {
+    border-radius: 142px;
+    font-size: 18px;
+}
+
+/* How we work section styles */
+.we-will {
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.how-we {
+    margin-bottom: 36px;
+}
+
+.how-we-row1 {
+    margin-bottom: 89px;
+    justify-content: center;
+
+}
+
+.how-we-card {
+    margin-right: 63px;
+}
+
+.how-we-row2 {
+    align-items: baseline;
+    justify-content: center;
+}
+
+.value-card {
+    justify-content: space-between;
+}
+
+.looking {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #B7B7B7;
+    text-align: end;
+}
+
+.looking-for {
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+.get-in-touch {
+    margin-right: 0;
+    width: -webkit-fill-available;
+}
+
+/* What we use section styles */
+.brands {
+    align-items: center;
+}
+
+.brand-name {
+    margin-right: 42px;
+}
+
+.brands-1 {
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+/* Latest Projects styles */
+.project-images {
+    justify-content: center;
+}
+
+.project-img {
+    margin-right: 21px;
+}
+
+.see-all-projects {
+    margin-top: 60px;
+}
+
+.experiecne-wrap {
+    text-align: initial;
+    margin-top: 183px;
+}
+
+.a-new {
+    justify-content: space-between;
+}
+
+.experience {
+    font-weight: 400;
+    font-size: 96px;
+    color: #404145;
+
+}
+
+.business-sol {
+    font-weight: 500;
+    font-size: 144px;
+    color: #404145;
+}
+
+.interested-wrap {
+    margin-top: 60px;
+    
+}
+
+.interested {
+
+    font-weight: 800;
+    font-size: 64px;
+    color: #121212;
+}
+
+.or-contact {
+    font-weight: 800;
+    font-size: 32px;
 }
