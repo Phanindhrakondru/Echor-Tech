@@ -1,19 +1,10 @@
 body {
-    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
+    padding-top: 6rem!important;
 }
-
-.echor-logo {
-    margin-left: 75px;
-}
-
-/* main section styles */
-.main-wrap {
-    padding-top: 90px;
-    padding-bottom: 70px;
-}
-
+/* Homepage styles start */
 .we-make {
     font-weight: 500;
     font-size: 24px;
@@ -24,24 +15,14 @@ body {
 }
 
 .software-dev {
-    font-weight: 300;
-    font-size: 100px;
-    line-height: 122px;
-    display: flex;
-    align-items: center;
+    font-size: 5.5rem;
     color: #121212;
-    margin-top: 56px;
-    margin-bottom: 46px;
+    font-family: 'Montserrat';
 }
 
-.portfolio {
-    padding: 25px 46px;
-    gap: 10px;
-    width: 272px;
-    height: 99px;
-    background: #121212;
-    margin-right: 52px;
-    font-weight: 600;
+.btn-lg {
+    --bs-btn-padding-y: 1.5rem;
+    --bs-btn-padding-x: 4rem;
 }
 
 .portfolio:hover {
@@ -50,284 +31,29 @@ body {
     border: 1px solid #ffffff;
 }
 
-/* Video section styles */
-.intro {
-    background: url(.jpg), #F8F8F8;
-    box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-}
-
-/* Welcome section styles start */
-.wel-wrap {
-    background: #F8F5EF;
-    margin-top: 79px;
-    margin-bottom: 80px;
-}
-
-.welcome-to {
-    font-family: 'Inconsolata';
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 126px;
-    color: #121212;
-}
-
-.row12-wrap {
-    padding-bottom: 117px;
-}
-
-.row1,
-.row2 {
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 85px;
-}
-
-.quotes {
-    mix-blend-mode: difference;
-    padding-bottom: 150px;
-}
-
-.we-echor-tech {
-    text-align: right;
-    font-family: 'Inconsolata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 39.5028px;
-    line-height: 131%;
-}
-
-/* Categories section styles start */
-
-.turning-text {
-    font-family: 'Inconsolata';
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 67px;
-    text-transform: capitalize;
-    color: #121212;
-}
-
-.feature-wrap {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-.cat-row-wrap {
-    margin-bottom: 30px;
-}
-
-.see-all {
-    width: 335px;
-    height: 92px;
-}
-
-.card-wrap {
-    margin-bottom: 64px;
-}
-
-.category-card {
-    margin-right: 30px;
-}
-
-/* Client section styles */
-.are-you {
-    font-weight: 700;
-    font-size: 56px;
-    align-items: center;
-    text-align: center;
-    color: #B7B7B7;
-}
-
-.clients {
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 78px;
-}
-
-.clients-wrap {
-    margin-top: 110px;
-}
-
-.c-wrap {
-    margin-bottom: 132px;
-}
-
-.clients-title {
-    padding-top: 32px;
-}
-
-.brands {
-    justify-content: space-evenly;
-    padding-bottom: 60px;
-}
-
-.brands-wrap {
-    margin-top: 4rem;
-}
-
-/* About us styles */
-.about-wrap {
-    background-image: url(assets/images/about-us-bg.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.abt-container {
-    padding: 214px;
-}
-
-.ab-wrap {
-    background-color: #121212;
-    color: #ffffff;
-    box-shadow: 0px 4px 30px rgb(0 0 0 / 12%);
-    border-radius: 12px;
-}
-
-.about-us {
-    font-weight: 600;
-    font-size: 26px;
-    margin-bottom: 30px;
-}
-
-.abt-us {
-    padding: 50px;
-}
-
-.ab-imgs {
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 30px;
-}
-
-.abt-symbol {
-    position: absolute;
-    left: 1060px;
-    mix-blend-mode: luminosity;
-}
-
-.our-vision-at {
-    margin-bottom: 30px;
-}
-
-.get-in-touch {
-    border-radius: 142px;
-    font-size: 18px;
-}
-
-/* How we work section styles */
-.we-will {
-    font-family: 'Inconsolata';
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    margin-bottom: 77px;
-}
-
-.how-we {
-    margin-bottom: 36px;
-}
-
-.how-we-row1 {
-    margin-bottom: 89px;
-    justify-content: center;
-
-}
-
-.how-we-card {
-    margin-right: 63px;
-}
-
-.how-we-row2 {
-    align-items: baseline;
-    justify-content: center;
-}
-
-.value-card {
-    justify-content: space-between;
-}
-
-.looking {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 68px;
-    color: #B7B7B7;
-    text-align: end;
-}
-
-.looking-for {
-    align-items: flex-end;
-    margin-right: 30px;
-}
-
-.get-in-touch {
-    margin-right: 0;
-    width: -webkit-fill-available;
-}
-
-/* What we use section styles */
-.brands {
-    align-items: center;
-}
-
-.brand-name {
-    margin-right: 42px;
-}
-
-.brands-1 {
-    width: -webkit-fill-available;
-    justify-content: space-between;
-    margin-bottom: 51px;
-}
-
-/* Latest Projects styles */
-.project-images {
-    justify-content: center;
-}
-
-.project-img {
-    margin-right: 21px;
-}
-
-.see-all-projects {
-    margin-top: 60px;
-}
-
-.experiecne-wrap {
-    text-align: initial;
-    margin-top: 183px;
-}
-
-.a-new {
-    justify-content: space-between;
-}
-
-.experience {
-    font-weight: 400;
-    font-size: 96px;
-    color: #404145;
-
-}
-
-.business-sol {
-    font-weight: 500;
-    font-size: 144px;
-    color: #404145;
-}
-
-.interested-wrap {
-    margin-top: 60px;
-    
-}
-
-.interested {
-
-    font-weight: 800;
-    font-size: 64px;
-    color: #121212;
-}
-
-.or-contact {
-    font-weight: 800;
-    font-size: 32px;
-}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+  }
+  .icon-link:hover > .bi {
+    transform: translate(.25rem);
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }

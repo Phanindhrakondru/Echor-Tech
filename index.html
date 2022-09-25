@@ -2,466 +2,349 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echor Tech</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echor Tech</title>
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Bootstrap CSS bundle -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Bootstrap CSS bundle -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <!-- Google fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Font awesome code kit -->
-    <script src="https://kit.fontawesome.com/c5ce413c15.js" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font awesome code kit -->
+  <script src="https://kit.fontawesome.com/c5ce413c15.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- Navbar section start -->
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center bg-light fixed-top py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="assets/images/Echorlogo.svg" alt="">
+      </a>
 
-    <!-- Navbar section start -->
-    <nav class="navbar bg-light">
-        <img class="echor-logo" src="/echortech-logo.svg" alt="echortech-logo">
-        <button type="button" style="
-        margin-right: 75px;
-    " class="btn btn-light nb-menu">menu
-            <img src="assets/icons/List.svg" alt="menu list">
-        </button>
-    </nav>
-    <!-- Navbar section end -->
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+  <!-- Navbar section end -->
 
-    <!-- Main section start -->
-    <main class="container d-flex flex-column main-wrap" style="padding-left: 80px;">
-        <div class="d-flex flex-row we-make">We Make It Happen</div>
-        <div class="d-flex flex-row software-dev">Software Development to<br>
-            Help You Scale Your idea.</div>
-        <div class="d-flex flex-row">
-            <button type="button" class="btn btn-dark portfolio" style="border-radius: 142px; font-size: 24px;">Our
-                Portfolio</button>
-            <button type="button" class="btn btn-dark portfolio" style="border-radius: 142px; font-size: 24px;">Contact
-                us</button>
+  <!-- Main section start -->
+  <div class="container col-xxl-10 px-4 py-5">
+    <div class="row flex-lg align-items-center text-center g-5 py-5">
+      <div class="col-lg-12">
+        <p class="lead we-make">We Make It Happen</p>
+        <h1 class="display-10 fw-light lh-1 mb-5 software-dev">Software Development to
+          Help You Scale Your idea.</h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+          <button type="button" class="btn btn-dark btn-lg px-6 me-md-2 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+              --bs-btn-padding-x: 4rem;">Our Portfolio</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+              --bs-btn-padding-x: 4rem;">Contact Us</button>
         </div>
-    </main>
-    <!-- Main section end -->
-
-    <!-- Video section start -->
-    <div class="container">
-        <video class="intro"
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+          <h1 class="display-4 fw-bold">Welcome To EchorTech</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">EchorTech is India’s best custom software development and prominent IT development
+              Solutions provider in enterprise infrastructure, Microsoft Solutions, edge computing, networking, web and
+              mobile application testing and many more.</p>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+              <img src="assets/images/sample-project.png" class="img-fluid border rounded-3 shadow-lg mb-4"
+                alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div class=" container ratio ratio-16x9">
+          <iframe
             src="https://d2of6bhnpl91ni.cloudfront.net/cms/promo-video-product-portfolio-template%20%281%29-5388fc4c5e.mp4"
-            controls="false" autoplay="autoplay"></video>
+            title="Samplevideo" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-    <!-- Video section end -->
+  </div>
+  <!-- Main section end -->
 
-    <!-- Welcome section start -->
-    <section class="container-fluid wel-wrap">
-        <div class="container">
-            <div class="d-flex flex-column row12-wrap">
-                <div class="d-flex flex-row row1">
-                    <p class="welcome-to">WELCOME TO</p>
-                    <img src="assets/images/echor.svg" alt="">
-                    <img src="assets/images/right-img.svg" alt="">
-                </div>
-                <div class="d-flex flex-row row2">
-                    <img src="assets/images/left-img.svg" alt="">
-                    <img class="quotes" src="assets/images/quotes.svg" alt="">
-                    <p class="we-echor-tech">We echor tech try to<br> maintain each of our<br> consultants done with
-                        the<br> most advanced training<br> available in the industry.</p>
-                </div>
-            </div>
+  <!-- Services section start -->
+  <div class="container col-xxl-10 px-4 py-5">
+    <div class="row flex-lg align-items-inherit g-5 py-5">
+      <div class="col-lg-12">
+        <h1 class="display-4 fw-bold">Turning Your ideas
+          into cutting-edge technologies</h1>
+        <div class="col-lg-6">
+          <p class="lead mb-4">EchorTech is India’s best custom software development and prominent IT development
+            Solutions provider in enterprise infrastructure, Microsoft Solutions, edge computing, networking, web and
+            mobile application testing and many more.</p>
         </div>
-    </section>
-    <!-- Welcome section end -->
-
-    <!-- Categories section start -->
-    <section class="container-fluid">
-        <div class="container">
-            <div class="d-flex flex-column">
-                <p class="turning-text">Turning Your ideas<br>
-                    into cutting-edge technologies</p>
-                <button type="button" class="btn btn-dark portfolio see-all"
-                    style="border-radius: 142px; font-size: 24px;">See
-                    All Categories</button>
-            </div>
+      </div>
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-7 p-lg-6 mx-auto my-5">
+          <h1 class="display-4 fw-normal">We Provide IT & Business Solutions</h1>
+          <a class="btn btn-outline-secondary" href="#">See All Services</a>
         </div>
-        <div class="d-flex flex-column text-center feature-wrap">
-            <h2>Featured Services</h2>
-            <p>We Provide IT & Business Solutions for small, medium & large scale companies</p>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Featured Services</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#collection" />
+              </svg>
+            </div>
+            <h3 class="fs-2">Artificial Intelligence</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#people-circle" />
+              </svg>
+            </div>
+            <h3 class="fs-2">Business Applications</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#toggles2" />
+              </svg>
+            </div>
+            <h3 class="fs-2">Block Chain Development</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="container">
-            <div class="d-flex flex-column card-wrap">
-                <div class="d-flex flex-row justify-content-center cat-row-wrap">
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Artificial Intelligence</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Business Applications</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Block Chain Development</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-center">
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Artificial Intelligence</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Business Applications</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                    <div class="card category-card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Block Chain Development</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#collection" />
+              </svg>
             </div>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-dark portfolio see-all see-cat"
-                    style="border-radius: 142px; font-size: 24px;">See All Categories</button>
-
+            <h3 class="fs-2">Data Analytics</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#people-circle" />
+              </svg>
             </div>
-
+            <h3 class="fs-2">Application Development</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#toggles2" />
+              </svg>
+            </div>
+            <h3 class="fs-2">Web Development</h3>
+            <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
+              in recent years and AI have emerged a lot.</p>
+            <a href="#" class="icon-link d-inline-flex align-items-center">
+              Read more
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
         </div>
-    </section>
-    <!-- Categories section end -->
+        <button type="button" class="btn btn-dark btn-lg px-6 me-md-2 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+              --bs-btn-padding-x: 4rem;">See All Services</button>
+      </div>
+    </div>
+  </div>
 
-    <!-- Clients section start -->
-    <section class="container-fluid clients-wrap">
-        <div class="container c-wrap">
-            <p class="are-you">Are you ready for a new era of digital solutions?</p>
-            <div class="d-flex flex-column text-center clients-title">
-                <h2 class="clients">CLIENTS</h2>
-                <p>Trusted by 100+ companies, 1 Million+ users and awarded 5+ times</p>
-                <div class="brands-wrap">
-                    <div class="d-flex flex-row brands">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                    </div>
-                    <div class="d-flex flex-row brands">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                        <img src="assets/images/brand-logo.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients section end -->
+  <!-- Services section end -->
 
-    <!-- About us section start -->
-    <section class="container-fluid about-wrap">
-        <div class="abt-container">
-            <div class="container ab-wrap">
-                <img class="abt-symbol" src="assets/images/abt-symbol.svg" alt="">
-                <div class="d-flex flex-column abt-us">
-                    <h5 class="about-us">About us</h5>
-                    <div class="d-flex flex-row ab-imgs">
-                        <img src="assets/images/abt-echor-logo.svg" alt="">
+  <!-- Section start -->
 
-                    </div>
-                    <p class="our-vision-at">Our vision at Cygnus Innovations is to make our customers better. We focus
-                        on the needs of each<br>individual client and what will help make them successful. We Echor Tech
-                        try to maintain each of our<br>consultants done with the most advanced training available in the
-                        industry.</p>
-                    <div class="d-flex flex-row">
-                        <button class="btn btn-dark portfolio get-in-touch" style="border-radius: 142px;">Let’s Get in
-                            Touch</button>
-                    </div>
-                </div>
-            </div>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="container col-xxl-10 px-4 py-5">
+        <div class="row flex-lg align-items-center text-center g-5 py-5">
+          <div class="col-lg-12">
+            <h1 class="display-10 fw-light lh-1 mb-5 software-dev">Are you ready for a new era of digital solutions?
+            </h1>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+                    --bs-btn-padding-x: 4rem;">Contact Us</button>
+          </div>
+
+
         </div>
 
-    </section>
-    <!-- About us section end -->
-
-    <!-- How we work section start -->
-    <section class="container-fluid">
-        <div class="d-flex flex-column text-center" style="
-        margin-top: 124px;
-    ">
-            <h2 class="clients how-we">How We Work?</h2>
-            <p class="we-will">We will help you bring your most complex ideas to life with our full-cycle custom
-                application<br>development approach.So that, you can focus on delivering an incredible user experience
-                for<br>your users that sets you apart from your competitors.</p>
-            <div class="d-flex flex-row how-we-row1">
-                <div class="card how-we-card" style="width: 22rem;">
-                    <img src="..." class="card-img-top" style="width: 330px; margin-top: 10px;align-self: center;
-                        height: 159px;
-                        background: #F8F5EF;
-                        " alt="...">
-                    <div class="card-body d-flex flex-row value-card">
-                        <h5 class="card-title">Value Proposition</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="card how-we-card" style="width: 22rem;">
-                    <img src="..." class="card-img-top" style="width: 330px; margin-top: 10px;align-self: center;
-                        height: 159px;
-                        background: #F8F5EF;
-                        " alt="...">
-                    <div class="card-body d-flex flex-row value-card">
-                        <h5 class="card-title">Value Proposition</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="card how-we-card" style="width: 22rem;">
-                    <img src="..." class="card-img-top" style="width: 330px; margin-top: 10px;align-self: center;
-                        height: 159px;
-                        background: #F8F5EF;
-                        " alt="...">
-                    <div class="card-body d-flex flex-row value-card">
-                        <h5 class="card-title">Value Proposition</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex flex-row how-we-row2">
-                <div class="card how-we-card" style="width: 22rem; margin-left: 34px;">
-                    <img src="..." class="card-img-top" style="width: 330px; margin-top: 10px;align-self: center;
-                        height: 159px;
-                        background: #F8F5EF;
-                        " alt="...">
-                    <div class="card-body d-flex flex-row value-card">
-                        <h5 class="card-title">Value Proposition</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="card how-we-card" style="width: 22rem;">
-                    <img src="..." class="card-img-top" style="width: 330px; margin-top: 10px;align-self: center;
-                        height: 159px;
-                        background: #F8F5EF;
-                        " alt="...">
-                    <div class="card-body d-flex flex-row value-card">
-                        <h5 class="card-title">Value Proposition</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="d-flex flex-column looking-for">
-                    <p class="looking">Looking for<br>
-                        something new?</p>
-                    <button class="btn btn-dark portfolio get-in-touch" style="border-radius: 142px;">Let’s Get in
-                        Touch</button>
-
-                </div>
-            </div>
+      </div>
+      <div class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">How We Work?</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+              etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          </div>
         </div>
 
-    </section>
-    <!-- How we work section end -->
+      </div>
 
-    <!-- What we use section start -->
-    <section class="container fluid" style="
-    margin-top: 157px;
-">
-        <div class="container text-center">
-            <div class="d-flex flex-column">
-                <h2 class="clients how-we">What We Use?</h2>
-                <p class="we-will">We will help you bring your most complex ideas to life with our full-cycle custom
-                    application<br>development approach.So that, you can focus on delivering an incredible user
-                    experience
-                    for<br>your users that sets you apart from your competitors.</p>
-                <div class="d-flex flex-column brands">
-                    <div class="d-flex flex-row brands-1">
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
 
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
-
-                        <div class="flex-column">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row brands-1">
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
-
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
-
-                        <div class="flex-column">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row brands-1">
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
-
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/Figma svg.svg" alt="">
-                            <p>Figma</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/adobe-xd.svg" alt="">
-                            <p>Adobe XD</p>
-                        </div>
-                        <div class="flex-column brand-name">
-                            <img src="assets/images/ProtoPie.svg" alt="">
-                            <p>ProtoPie</p>
-                        </div>
-
-                        <div class="flex-column">
-                            <img src="assets/images/after-effects.svg" alt="">
-                            <p>AfterEffects</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- What we use section end -->
 
-    <!-- Latest projects section start -->
-    <section class="container-fluid">
-        <div class="d-flex flex-column text-center">
-            <h2 class="clients how-we">Latest Projects</h2>
-            <p class="we-will">We will help you bring your most complex ideas to life with our full-cycle custom
-                application<br>development approach.So that, you can focus on delivering an incredible user
-                experience
-                for<br>your users that sets you apart from your competitors.</p>
-            <div class="d-flex flex-row project-images">
-                <img class="project-img" src="assets/images/latest-project.png" alt="">
-                <img class="project-img" src="assets/images/latest-project.png" alt="">
-                <img class="project-img" src="assets/images/latest-project.png" alt="">
-                <img class="project-img" src="assets/images/latest-project.png" alt="">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-dark portfolio see-all see-cat see-all-projects"
-                    style="border-radius: 142px; font-size: 24px;">See All Projects</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-            <div class="container experiecne-wrap">
-                <div class=" container d-flex flex-row a-new">
-                    <p class="experience">Experience</p>
-                    <img src="assets/images/a-new-dimension.svg" alt="">
-                    <img src="assets/images/Cursor.svg" alt="">
-                </div>
-                <p class="business-sol">Business Solutions.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-            <div class="interested-wrap">
-                <p class="interested">INTERESTED? LET’S TALK</p>
-                <p class="or-contact">or contact us at echor@tech.com</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
             
 
-
+            <div class="card-body">
+              <h5 class="card-title display-4 fw-semibold">Looking for
+                something new?</h5>
+            </div>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+                    --bs-btn-padding-x: 10rem;">Let's Talk?</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-    </section>
-    <!-- Latest projects section end -->
+  <!-- Section end -->
 
 
 
 
 
-
-    </nav>
-    <!-- Bootstrap Javascript bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap Javascript bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
