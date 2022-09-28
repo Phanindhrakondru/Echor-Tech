@@ -23,17 +23,17 @@
 <body>
   <!-- Navbar section start -->
   <div class="container">
-    <header class="d-flex flex-wrap justify-content-center bg-light fixed-top py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center bg-dark fixed-top py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src="assets/images/Echorlogo.svg" alt="">
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link" style="color: #ffffff;">Portfolio</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link" style="color: #ffffff;">Services</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" style="color: #ffffff;">About Us</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" style="color: #ffffff;">Contact</a></li>
       </ul>
     </header>
   </div>
@@ -42,15 +42,17 @@
   <!-- Main section start -->
   <div class="container col-xxl-10 px-4 py-5">
     <div class="row flex-lg align-items-center text-center g-5 py-5">
-      <div class="col-lg-12">
-        <p class="lead we-make">We Make It Happen</p>
-        <h1 class="display-10 fw-light lh-1 mb-5 software-dev">Software Development to
+      <div class="col-lg-12 pt-5">
+        <p class="lead we-make pt-5">We Make It Happen</p>
+        <h1 class="display-5 fw-light lh-1 mb-5 software-dev">Software Development to
           Help You Scale Your idea.</h1>
         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-          <button type="button" class="btn btn-dark btn-lg px-6 me-md-2 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
-              --bs-btn-padding-x: 4rem;">Our Portfolio</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
-              --bs-btn-padding-x: 4rem;">Contact Us</button>
+          <a href="portfolio.html"><button type="button" class="btn btn-dark btn-lg px-6 me-md-2 rounded-pill portfolio"
+              style="--bs-btn-padding-y: 1.5rem;
+            --bs-btn-padding-x: 4rem;">Portfolio</button></a>
+          <a href="contact.html"><button type="button"
+              class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+            --bs-btn-padding-x: 4rem;">Contact Us</button></a>
         </div>
         <div class="px-4 pt-5 my-5 text-center border-bottom">
           <h1 class="display-4 fw-bold">Welcome To EchorTech</h1>
@@ -77,8 +79,8 @@
   <!-- Main section end -->
 
   <!-- Services section start -->
-  <div class="container col-xxl-10 px-4 py-5">
-    <div class="row flex-lg align-items-inherit g-5 py-5">
+  <div class="container col-xxl-10 px-4">
+    <div class="row flex-lg align-items-inherit g-5">
       <div class="col-lg-12">
         <h1 class="display-4 fw-bold">Turning Your ideas
           into cutting-edge technologies</h1>
@@ -88,119 +90,89 @@
             mobile application testing and many more.</p>
         </div>
       </div>
-      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-7 p-lg-6 mx-auto my-5">
-          <h1 class="display-4 fw-normal">We Provide IT & Business Solutions</h1>
-          <a class="btn btn-outline-secondary" href="#">See All Services</a>
-        </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-      </div>
       <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">Featured Services</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#collection" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-brain"></i>
             </div>
             <h3 class="fs-2">Artificial Intelligence</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline"
+            style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#people-circle" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-briefcase"></i>
             </div>
             <h3 class="fs-2">Business Applications</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline"
+            style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#toggles2" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-sitemap"></i>
             </div>
             <h3 class="fs-2">Block Chain Development</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline" style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
         </div>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#collection" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-database"></i>
             </div>
             <h3 class="fs-2">Data Analytics</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline" style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#people-circle" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-mobile-button"></i>
             </div>
             <h3 class="fs-2">Application Development</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline" style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
           <div class="feature col">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#toggles2" />
-              </svg>
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+              <i class="fa-solid fa-code"></i>
             </div>
             <h3 class="fs-2">Web Development</h3>
             <p>AI Artificial Intelligence is one in all hottest technology trends that has invaded the business trends
               in recent years and AI have emerged a lot.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
+            <a href="#" class="icon-link d-inline-flex align-items-baseline" style="--bs-link-color: #F83600;">
               Read more
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#chevron-right" />
-              </svg>
+              <i class="fa-solid fa-greater-than icon-effect px-1"></i>
             </a>
           </div>
         </div>
@@ -212,9 +184,9 @@
 
   <!-- Services section end -->
 
-  <!-- Section start -->
+  <!-- How we work section start -->
 
-  <div class="album py-5 bg-light">
+  <div class="album bg-light">
     <div class="container">
       <div class="container col-xxl-10 px-4 py-5">
         <div class="row flex-lg align-items-center text-center g-5 py-5">
@@ -230,112 +202,364 @@
 
       </div>
       <div class="py-5 text-center container">
-        <div class="row py-lg-5">
+        <div class="row">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">How We Work?</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
-              etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <h1 class="fw-dark">How We Work?</h1>
+            <p class="lead text-muted">We will help you bring your most complex ideas to life with our full-cycle custom
+              application development approach.So that, you can focus on delivering an incredible user experience for
+              your users that sets you apart from your competitors.</p>
           </div>
         </div>
 
       </div>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="--bs-gutter-y: 4rem;">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
+            <img src="assets/images/value-proportion.png" alt="">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Value-Driven Software Development</h5>
+              <p class="card-text">We will help you bring your most complex to life with our leading full-cycle custom
+                application development service.</p>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
+            <img src="assets/images/Software Development Methodology.png" alt="">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Software Development Methodology</h5>
+              <p class="card-text">We will help you bring your most complex to life with our leading full-cycle custom
+                application development service.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
+            <img src="assets/images/Project management.png" alt="">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Project Management Methodologies</h5>
+              <p class="card-text">We will help you bring your most complex to life with our leading full-cycle custom
+                application development service.</p>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
+            <img src="assets/images/outsourcing.png" alt="">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Outsourcing Approach</h5>
+              <p class="card-text">We will help you bring your most complex to life with our leading full-cycle custom
+                application development service.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg>
+            <img src="assets/images/engagement.png" alt="">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Engagement models</h5>
+              <p class="card-text">We will help you bring your most complex to life with our leading full-cycle custom
+                application development service.</p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="">
-            
-
-            <div class="card-body">
-              <h5 class="card-title display-4 fw-semibold">Looking for
-                something new?</h5>
-            </div>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
-                    --bs-btn-padding-x: 10rem;">Let's Talk?</button>
-          </div>
+      </div>
+      <div class="row flex-lg align-items-center text-center g-5 py-5">
+        <div class="col-lg-12">
+          <h1 class="display-5 fw-semibold lh-1 mb-5 software-dev">Looking for
+            something new?
+          </h1>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+                  --bs-btn-padding-x: 4rem;">Let's Talk?</button>
         </div>
       </div>
     </div>
   </div>
   </div>
 
-  <!-- Section end -->
+  <!--  How we work section start -->
+
+  <!-- What we use section start -->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="py-5 text-center container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-dark">What We Use?</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+              etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 mb-4 g-6">
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/React svg.svg" alt="">
+              <p class="card-text">React Native</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Angular svg.svg" alt="">
+              <p class="card-text">Angular Js</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Vue.js svg.svg" alt="">
+              <p class="card-text">Vue Js</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Node.js svg.svg" alt="">
+              <p class="card-text">Node Js</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Android svg.svg" alt="">
+              <p class="card-text">Android</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Apple svg.svg" alt="">
+              <p class="card-text">IOS</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 mb-4 g-6">
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Oracle MySQL svg.svg" alt="">
+              <p class="card-text">MySQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/PostgreSQL svg.svg" alt="">
+              <p class="card-text">PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/MongoDB svg.svg" alt="">
+              <p class="card-text">MongoDB</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/SQLite svg.svg" alt="">
+              <p class="card-text">SQLite</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Firebase svg.svg" alt="">
+              <p class="card-text">Firebase</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="assets/images/Figma svg.svg" alt="">
+              <p class="card-text">Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What we use section end -->
+
+
+  <!-- Latest projects section start -->
+  <div class="album bg-light">
+    <div class="container">
+      <div class="py-5 text-center container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-dark">Our Latest Projects</h1>
+            <p class="lead text-muted">450+ clients including Fortune 500 and Forbes 2000 firms</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Pradhara</h2>
+        <p class="lead">A milk delivery App</p>
+      </div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img class="project1" style="width: -webkit-fill-available;
+      border-radius: 21px 21px 0 0;" src="assets/images/project1.png" alt="">
+      </div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Pradhara</h2>
+        <p class="lead">A milk delivery App</p>
+      </div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img class="project1" style="width: -webkit-fill-available;
+        border-radius: 21px 21px 0 0;" src="assets/images/project1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Pradhara</h2>
+        <p class="lead">A milk delivery App</p>
+      </div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img class="project1" style="width: -webkit-fill-available;
+        border-radius: 21px 21px 0 0;" src="assets/images/project1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest project section end -->
+  <div class="row flex-lg align-items-center text-center g-5 py-5">
+    <div class="col-lg-12">
+      <h1 class="display-5 fw-semibold lh-1 mb-5 software-dev">INTERESTED? LET’S TALK
+      </h1>
+      <p class="lead text-muted">or contact us at echor@tech.com</p>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-6 rounded-pill portfolio" style="--bs-btn-padding-y: 1.5rem;
+              --bs-btn-padding-x: 4rem;">Let's Talk?</button>
+    </div>
+
+  </div>
+
+  <div class="bd-example-snippet bd-code-snippet container"><div class="bd-example">
+     <div class="row align-items-md-center">
+      <div class="col-md-12">
+        <div class="h-100 p-5 text-bg-dark rounded-3 text-center">
+           <h2>Have an idea?</h2>
+          <p>Have a project in mind that you think we’d be a great fit for it? We’d love to know what you’re thinking
+          </p>
+          <button class="btn btn-outline-light" type="button">Contact Us</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+
+
+  <!-- Footer section start -->
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Navigation</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Portfolio</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Other</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Technologies</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of Service</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Contact</h5>
+          <p>2bd Floor beside DSL Virtual Mall, Uppal Khalsa Village, IDA Uppal, Hyderabad – 500039, Telangana.
+            info@echortech.com<br>
+            +91 7075773736</p>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Ready to get started?</h5>
+            <p>Let's connect and bring life to your idea.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Contact</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2022 EchorTech PVT LTD. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter" />
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram" />
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook" />
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Footer section end -->
 
 
 
